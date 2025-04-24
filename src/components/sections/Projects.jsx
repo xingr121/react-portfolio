@@ -177,6 +177,11 @@ export const Projects = () => {
               </div>
             </div>
           </div>
+          <div className="mt-8 mx-auto text-center text-[#60F0D0]">
+            <a href="https://github.com/xingr121/" target="_blank">
+              + View More Projects →
+            </a>
+          </div>
         </div>
       </RevealOnScroll>
     </section>
