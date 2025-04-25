@@ -57,7 +57,9 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="https://github.com/xingr121/"
+                  href="https://app.linguosphere.ca/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-[#60F0D0] hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -94,13 +96,55 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="https://github.com/xingr121/airbnb-clone-mern-fullstack"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-[#60F0D0] hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
               </div>
             </div>
-
+            <div
+              className="
+              glass p-6 rounded-xl border border-white/10 
+              hover:-translate-y-1 hover:border-blue-500/30
+              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              transition-all
+            "
+            >
+              <h3 className="text-xl font-bold mb-2">Oreizon App</h3>
+              <p className="text-gray-400 mb-4">
+                a full-stack SaaS application
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["MERN stack", "Three.js", "AWS EC2", "BVH", "shaders"].map(
+                  (tech) => (
+                    <span
+                      key={tech}
+                      className="
+                      bg-blue-500/10 text-purple-400 py-1 px-3 
+                      rounded-full text-sm
+                      transition
+                      hover:bg-blue-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
+                    "
+                    >
+                      {tech}
+                    </span>
+                  )
+                )}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://app.oreizon.com/landing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#60F0D0] hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
             <div
               className="
               glass p-6 rounded-xl border border-white/10 
@@ -130,6 +174,52 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="https://github.com/xingr121/recipe-website"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#60F0D0] hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+
+            <div
+              className="
+              glass p-6 rounded-xl border border-white/10 
+              hover:-translate-y-1 hover:border-blue-500/30
+              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              transition-all
+            "
+            >
+              <h3 className="text-xl font-bold mb-2">
+                Electronic shop management
+              </h3>
+              <p className="text-gray-400 mb-4">
+                a desktop Electronic Shop Management app.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["C#", "Azure SQL Database", "Entity Framework"].map(
+                  (tech, key) => (
+                    <span
+                      key={key}
+                      className="
+                      bg-blue-500/10 text-purple-400 py-1 px-3 
+                      rounded-full text-sm
+                      transition
+                      hover:bg-blue-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
+                    "
+                    >
+                      {tech}
+                    </span>
+                  )
+                )}
+              </div>
+              <div className="flex justify-between items-center ">
+                <a
+                  href="https://github.com/xingr121/electronic-shop-management.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-[#60F0D0] hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -169,7 +259,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center ">
                 <a
-                  href="https://github.com/xingr121/"
+                  href="#"
                   className="text-[#60F0D0] hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →

@@ -86,10 +86,10 @@ function Particlesbg() {
               opacity: {
                 value: 0.49,
                 random: false,
-                anim: {
+                animation: {
                   enable: true,
                   speed: 0.25,
-                  opacity_min: 0,
+                  minimumValue: 0,
                   sync: false,
                 },
               },
